@@ -644,7 +644,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-anceu-village-3.png);
+  /* background-image: url(../images/banner-anceu-village-3.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -857,7 +857,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-background.png);
+  /* background-image: url(../images/work-process-background.png); */
   z-index: 2;
   top: -20%;
   left: -20%;
