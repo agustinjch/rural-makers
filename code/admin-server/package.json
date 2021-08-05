@@ -1,0 +1,45 @@
+{
+    "name": "eleven-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/agustinjch/rural-makers.git",
+        "type": "git"
+    },
+    "dependencies": {
+        "redis-commander": "^0.4.5"
+    },
+    "homepage": "https://github.com/agustinjch/rural-makers",
+    "license": "ISC",
+    "scripts": {
+        "start-admin": "cd admin/ && npm run start",
+        "deploy-admin-staging": "cd admin && DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy url.to.deploy.com --settings ../.deploy/admin/staging/settings.json",
+        "deploy-admin-prod": "cd admin && DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy url.to.deploy.com --settings ../.deploy/admin/prod/settings.json"
+    },
+    "author": "",
+    "devDependencies": {
+        "@meteorjs/eslint-config-meteor": "^1.0.5",
+        "babel-eslint": "^10.1.0",
+        "concurrently": "^5.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-config-react-app": "^5.2.0",
+        "eslint-import-resolver-meteor": "^0.4.0",
+        "eslint-loader": "^3.0.3",
+        "eslint-plugin-flowtype": "^4.6.0",
+        "eslint-plugin-import": "^2.20.0",
+        "eslint-plugin-jest": "^23.2.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-meteor": "^6.0.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-standard": "^4.0.1",
+        "node-sass": "^4.13.1",
+        "prettier": "^1.19.1"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    }
+}

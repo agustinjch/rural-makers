@@ -1,0 +1,8 @@
+.DS_STORE
+package-lock.json
+node_modules/
+.deploy/admin/prod
+admin/.meteor/dev_bundle
+admin/node_modules
+admin/yarn.lock
+notes.js

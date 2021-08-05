@@ -1,0 +1,41 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "prettier",
+        "prettier/standard",
+        "prettier/react",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Meteor": false,
+        "logger": false
+    },
+    "plugins": ["prettier", "import"],
+    "rules": {
+        "prettier/prettier": "error",
+        "import/no-unresolved": [
+            2,
+            { "commonjs": true, "caseSensitive": true, "ignore": ["^meteor/", "^/"] }
+        ],
+        "no-empty-pattern": "off"
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "mocha": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    }
+}
