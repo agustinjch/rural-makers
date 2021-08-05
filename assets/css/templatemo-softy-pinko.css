@@ -644,7 +644,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/banner-anceu-village-3.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -660,19 +660,19 @@ welcome
 }
 
 .welcome-area .header-text h1 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 54px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
 }
 
 .welcome-area .header-text p {
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 20px;
   color: #fff;
-  line-height: 28px;
+  line-height: 30px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
@@ -857,7 +857,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/work-process-background.png);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -891,7 +891,7 @@ parallax & home seperator
 
 .mini .mini-content .info h1 {
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 28px;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
@@ -903,7 +903,7 @@ parallax & home seperator
   color: #fff;
   letter-spacing: 0.25px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
 
